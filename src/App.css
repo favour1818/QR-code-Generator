@@ -35,3 +35,18 @@ button{
   background-color: indigo;
   border: none;
 }
+
+
+@media (max-width:500px) {
+  .container{
+    height: 100vh;
+    display: block;
+    
+  }
+  .imput{
+    padding-block: 2rem;
+  }
+  .qr-area{
+    margin-inline: 3rem;
+  }
+}
